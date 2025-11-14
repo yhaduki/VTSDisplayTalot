@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-area {
+    @apply text-2xl font-bold bg-violet-400 text-white py-2 px-5;
+  }
+  .btn-common {
+    @apply px-4 py-2 font-semibold text-sm bg-violet-400 text-white rounded-full shadow-sm hover:bg-violet-600;
+  }
+  .radio-label {
+    @apply block cursor-pointer select-none rounded-xl p-1 text-center peer-checked:bg-cyan-500 peer-checked:font-bold peer-checked:text-white;
+  }
+  .select-box {
+    @apply mb-1 w-40;
+
+    & .react-select__control {
+      @apply border border-gray-300 rounded-xl h-10 px-2 bg-white hover:border-gray-400 focus:outline-none;
+    }
+
+    & .react-select__option {
+      @apply bg-white text-black;
+    }
+
+    & .react-select__option--is-selected {
+      @apply border-l-2 border-cyan-500;
+    }
+
+    & .react-select__option--is-focused {
+      @apply bg-cyan-200;
+    }
+
+    & .react-select__dropdown-indicator {
+      @apply p-0;
+    }
+
+    & .react-select__indicator-separator {
+      @apply hidden;
+    }
+  }
+}
