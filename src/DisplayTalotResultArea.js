@@ -3,7 +3,7 @@ import { gridColsList } from './Const';
 
 function ResultArea({cardNum, displayImages}){
   return(
-    <div className="px-14 p-5 bg-green-500 h-screen max-h-fit">
+    <div className="px-14 p-5 bg-green-500 min-h-[calc(100dvh-268px)] max-h-fit">
     <div className={`min-w-max grid ${gridColsList[cardNum]} text-center gap-4 mt-5`}>
       {Array.from({ length: cardNum }).map((_, i) => {
         const imageUrl = `asset/cards/${displayImages.options[i].file}`;
