@@ -6,6 +6,7 @@ VTS Display Talot
 - 実際に手元で実施したタロットカード占いの結果を画面上で入力し、VTubeStudioと連動してカードの配置や表示が変化します
 - セレクトボックスからカードを選び、正位置/逆位置を選択します
   - 直接文字を入力して検索も可能
+  - 右上の「Shuffle!」ボタンでカード・正/逆をランダム設定
 - 「表示」ボタンを押すと、対応するカードと向きが下部にイメージイラストとして表示され、同時にVTubeStudioのAPIに対応するパラメータを送信します
   - VTubeStudio側で受け取ったパラメータに応じてタロットカードが描画されます
 - 上部ヘッダーから占いの種類を選択できます。ヘッダーを選択すると対応する枚数が画面に表示され、同時にVTubeStudioに対応するパラメータを送信します
@@ -25,5 +26,5 @@ VTS Display Talot
 - [VTubeStudioJS](https://github.com/Hawkbat/VTubeStudioJS)
 
 ## Special Thanks
-- まどいあきゅら 様
-- 刀　彼方 様
+- [まどいあきゅら 様](https://www.youtube.com/channel/UCg993QrYho4WlkmvtNLPvVQ)
+- [刀　彼方 様](https://in-tegral.org/)
