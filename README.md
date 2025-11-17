@@ -19,7 +19,8 @@ VTS Display Talot
   - 画像ファイルが存在しない場合は文字で表示されます
 
 ## ビルド
-- Webpackでbundle化することで開発環境を構築していないローカル環境でも動作します
+- distフォルダ内index.htmlを開くことで開発環境を構築していない環境でも動作します
+- Webpackでbundle化することでローカル環境で動作する形にビルドしています
   - Build: ```docker-compose run --rm app sh -c 'npm run build'```
 
 ## バージョン/ライブラリ
