@@ -20,13 +20,13 @@ function ResultArea({cardNum, displayImages}){
             <div className="border-0">
               {
                 displayImages.options[i].file && !imgError ?
-                  <img src={imageUrl} className={`w-40 h-56 rounded-lg border-0 ${rotate}`}
+                  <img src={imageUrl} className={`w-40 h-[266px] rounded-lg border-0 ${rotate}`}
                     alt={imageAlt}
                     onError={() => {setImgError(true)}}
                   />
                 : (
                   <div id={`fallback-${i}`} 
-                    className={`flex w-40 h-56 rounded-lg justify-center items-center font-bold
+                    className={`flex w-40 h-[266px] rounded-lg justify-center items-center font-bold
                     ${displayImages.rotations[i] === 'r' ? 'bg-gray-800 text-gray-100' : 'bg-gray-100 text-gray-900'}`}
                   >
                     {imageAlt}
