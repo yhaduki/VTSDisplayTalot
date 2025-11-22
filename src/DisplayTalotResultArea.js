@@ -8,7 +8,6 @@ function ResultArea({cardNum, displayImages}){
       {Array.from({ length: cardNum }).map((_, i) => {
         const imageUrl = `asset/cards/${displayImages.options[i].file}`;
         const rotate = displayImages.rotations[i] === 'r' ? "rotate-180" : "rotate-0";
-        //const visible = displayImages.visible[i] ? 'visible' : 'invisible';
         const imageAlt = `${displayImages.options[i].label}_${displayImages.rotations[i] === 'r' ? '逆位置' : '正位置'}`;
         const [imgError, setImgError] = useState(false);
         useEffect(() => {

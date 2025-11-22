@@ -119,7 +119,6 @@ export const pageList = {
 export const initSelection = {
   options: [options[0], options[0], options[0], options[0], options[0], options[0], options[0]],
   rotations: ['n', 'n', 'n', 'n', 'n', 'n', 'n'],
-  //visible: [false, false, false, false, false, false, false],
 };
 
 // 動的に変化するクラスを読み込ませる
