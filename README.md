@@ -13,7 +13,7 @@ VTS Display Talot
     <img src="https://github.com/yhaduki/VTSDisplayTalot/blob/doc_resources/images/animewepb-15fps-960x640.webp" width="100%">
 - 上部ヘッダーから占いの種類を選択できます。ヘッダーを選択すると対応する枚数が画面に表示され、同時にVTubeStudioに対応するパラメータを送信します
   - VTubeStudio側で、受け取ったパラメータに対応するカードの並べ方・枚数が描画されます
-  <img src="https://github.com/yhaduki/VTSDisplayTalot/blob/doc_resources/images/spread.jpg" width="100%">
+    <img src="https://github.com/yhaduki/VTSDisplayTalot/blob/doc_resources/images/spread.jpg" width="100%">
 
 ## 事前準備
 - 動作にはasset/cardsに01.png〜78.pngが必要です
